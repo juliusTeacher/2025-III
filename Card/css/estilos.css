@@ -1,0 +1,97 @@
+/* Estilo para el cuerpo de la página */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Estilo para el encabezado de nuestro sitio web */
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+}
+
+/*Estilo para la barra de navegación */
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav li{
+    margin-right: 20px;
+}
+
+/* Estilo para el contenedor principal */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Contenedor para computadores */
+.computadores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo para cada computador */
+.computador{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0.1);
+    width: 300px;
+}
+
+.computador img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.computador h2{
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.computador p{
+    font-size: 18px;
+    color: #666;
+}
+
+.computador ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.computador li{
+    margin-bottom: 10px;
+}
+
+/* Estilo enlace centrado */
+.center{
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
