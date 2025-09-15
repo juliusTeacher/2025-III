@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="#" id="formRegistro" method="post">
+            <h1>Contactenos</h1>
+            <div class="input-control">
+                <label for="lblUsuario">Nombre</label>
+                <input type="text" name="nombre" id="txtNombre">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="lblCorreo">Correo Electrónico</label>
+                <input type="email" name="correo" id="txtCorreo">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="lblComentario">Comentarios</label>
+                <textarea name="comentario" id="txtComentario"></textarea>
+                <div class="error"></div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
